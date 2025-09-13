@@ -1,8 +1,8 @@
 import axios from 'axios'
 import toast from 'react-hot-toast'
 
-const API_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.com/api'
+const API_URL = import.meta.env.VITE_API_URL
+  ? 'https://lead-management-backend-mgwu.onrender.com'
   : '/api'
 
 const api = axios.create({
